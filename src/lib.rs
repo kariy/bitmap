@@ -1,3 +1,5 @@
+mod roaring;
+
 #[derive(Debug, Clone)]
 pub struct BitMap(Vec<bool>);
 
